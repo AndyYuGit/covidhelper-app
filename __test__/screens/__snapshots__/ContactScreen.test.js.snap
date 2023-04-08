@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#282F6F",
+          "fontSize": 16,
+        }
+      }
+    >
+      Write something...
+    </Text>
+    <TextInput
+      multiline={true}
+      onChangeText={[Function]}
+      placeholder="Tell me your advice or bug report..."
+      selectionColor="#cba3ce"
+      style={
+        Object {
+          "borderColor": "#21254a",
+          "borderWidth": 1,
+          "maxHeight": 500,
+          "padding": 10,
+          "width": "95%",
+        }
+      }
+      value=""
+    />
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#21254a",
+          "borderColor": "#cba3ce",
+          "borderRadius": 10,
+          "borderWidth": 2.4,
+          "fontSize": 14,
+          "opacity": 1,
+          "width": "15%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 22,
+          }
+        }
+      >
+        Send
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#282F6F",
+          "fontSize": 16,
+        }
+      }
+    />
+  </View>
+</View>
+`;

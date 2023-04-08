@@ -1,0 +1,16 @@
+{
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "root": ["./src"],
+          "extensions": [".js",".jsx",".ios.js", ".android.js"],
+          "alias": {
+            "@src": "./src",
+            "@assets": "./assets"
+
+          }
+        }
+      ]
+    ]
+  }

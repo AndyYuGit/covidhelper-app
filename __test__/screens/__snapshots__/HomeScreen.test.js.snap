@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEF0F4",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#EEF0F4",
+          "borderRadius": 150,
+          "elevation": 7,
+          "height": 300,
+          "justifyContent": "center",
+          "position": "absolute",
+          "width": 300,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#cba3ce",
+          "fontSize": 22,
+        }
+      }
+    >
+      Loading...
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#21254a",
+          "fontSize": 14,
+        }
+      }
+    >
+      Confirmed Cases
+    </Text>
+    <Text>
+      
+
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#cba3ce",
+          "fontSize": 22,
+        }
+      }
+    >
+      Loading...
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#21254a",
+          "fontSize": 14,
+        }
+      }
+    >
+      Death Cases
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 100,
+        "position": "absolute",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#21254a",
+          "fontSize": 14,
+        }
+      }
+    >
+      Last updated at: 
+    </Text>
+  </View>
+</View>
+`;

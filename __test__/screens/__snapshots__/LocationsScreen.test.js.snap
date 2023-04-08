@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#EEF0F4",
+      "flexGrow": 1,
+      "marginBottom": 0.1,
+    }
+  }
+>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Search buildings..."
+    placeholderTextColor="#21254a"
+    selectionColor="#cba3ce"
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#21254a",
+        "borderWidth": 1,
+        "color": "#21254a",
+        "height": 40,
+        "margin": 5,
+        "paddingLeft": 20,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
